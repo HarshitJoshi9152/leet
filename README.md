@@ -10,4 +10,4 @@ leet [link]
 
 # Roadmap
 
--   Add better templating support
+-   Add better [templating support](https://lib.rs/template-engine)

@@ -3,6 +3,7 @@ mod api;
 mod file_builder;
 mod graphql;
 
+mod responses;
 
 #[tokio::main]
 async fn main() {
@@ -11,7 +12,7 @@ async fn main() {
     // ReqBody -> Query, operationName is unchanged always
     //            variables is changing, so we can generate that when returning
 
-
+    // TODO: Take once from user and then store them in ~/.leetcode same as in a .env file
     let csrf_token = "";
     let leetcode_session = "";
     let problem_slug =  "sliding-window-maximum";
